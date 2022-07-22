@@ -1,0 +1,37 @@
+body {
+    
+    background-color: olivedrab;
+}
+    
+        .img1{
+            display: flex;
+            justify-content: space-between;
+            size-adjust: 100px;           
+        }
+       
+        .header{
+            color: rgb(129, 164, 233);
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        .intro{
+            font-weight: 200px;
+            font-size: 20px
+        }
+        .subheader1{
+            color: aqua;
+            font-weight: bold
+            font-size = 35px;  
+        }
+        .subheader2{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .subheader3{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .subheader4{
+            font-weight: bold;
+            font-size: 35px;
+        }
