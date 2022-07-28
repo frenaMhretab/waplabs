@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <p>1. Which, if any, of the following 3 code fragments are equivalent? Explain why they are different, if
+        they are. Explain why they can have different parameters and be equivalent, if they are equivalent.</p>
+        <!-- //code fragment 1
+        $("li").each(function(idx, e) {
+        $(e).css(“color”, “yellow”); });
+        //code fragment 2
+        $("li").each(function() {
+        $(this).css(“color”, “yellow”); });
+        //code fragment 3
+        $("li").each(function(idx) {
+        $(this).css(“color”, “yellow”); });  -->
+        <p> <b> Answer:  NO <ul>
+            <li>Fragement 1:  will color elements that matches with e only </li>
+            <li>Fragement 2: will color all elements on the list "li"</li>
+            <li>Fragement 3: will color an element at index "idx" only</li>
+        </ul> </b>   </p>
+    
+
+    <p>2. Write a jQuery expression to find all divs on a page that include an unordered list in them, and make
+            their text color be blue.</p>
+
+       <p><b>Answer: $("div ul").css("text-color","blue");</b></p>    
+       
+       <p>3. Write jQuery code to append the following div element (and all of its contents) dynamically to the body
+        element.
+        <!--  <div><h1>JQuery Core</h1></div>    --> </p>
+        <p> <b>Answer: $("body").append("div h1 JQuery Core h1 div");</b></p>
+
+            
+        
+</body>
+</html>
