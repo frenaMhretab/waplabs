@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Adder WebApp - Addition Form</title>
+    <style>
+          body{
+            font-size:24px;
+            font-weight:bold;
+            text-align: center;
+            margin-top:100px
+        }
+        #num{
+            font-size: 24px;
+            padding: 2px;
+            margin: 10px;
+        }
+        #first,#second,#btn{
+            font-size: 20px;
+            padding: 2px;
+            margin: 10px;
+    
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Simple Adder Web Application </h1>
+    <form action = "http://localhost:8080/add.js">
+        <div><label id = "num">Enter two numbers </label><br>
+            
+        <input type = "number" name="first" id="first" step="0.01">
+        <input type = "number" name="second" id="second" step="0.01"><br>
+        <input id = "btn" type="submit" value="Add the Numbers"/>
+        </div>
+        </form> 
+</body>
+</html>
