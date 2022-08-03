@@ -1,0 +1,11 @@
+.navbar-custom{
+    background-color: #35A6E7;
+    
+
+}
+.navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 2px solid #FFF;
+  }
+.top-buffer{
+    margin-top: 50px;
+}
