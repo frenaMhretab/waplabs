@@ -1,0 +1,38 @@
+/* Copyright 2015 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file. */
+
+ html {
+  /* The viewer implements a custom pinch zoom. */
+  touch-action: pan-x pan-y;
+}
+
+body {
+  /* background-image: url('http://lh3.googleusercontent.com/qnqubr_q2MDao-neOb3qGQPZHGNHhuPCKvB64l0x5mVDagy-73EkfbbcJXRbmtg') ; */
+ /* background-image: url('https://preview.redd.it/dtgr2584vzx51.png?width=960&crop=smart&auto=webp&s=7cc0c122153bce54e3c9fcd5c6b52fb27e51464f');*/
+   background-color:rgb(248, 207, 157);
+   background-repeat: repeat; 
+  color: var(--primary-text-color);
+  line-height: 154%;
+  margin: 0;
+}
+h1{
+  /* text-align: center; */
+  font-size: 35px;
+}
+  /* color:white;
+}
+label,#title,#date1{
+  color:white;
+}
+#explanation{
+  color:white;
+} */
+#ctn{
+  margin-left: 20%;
+  margin-top: 7px;
+}
+input{
+  height: 25px;
+  font-size: 19px;
+}
